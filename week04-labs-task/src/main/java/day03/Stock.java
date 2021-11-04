@@ -28,7 +28,7 @@ public class Stock {
         double maxPrice = prices.get(0);
         double minPrice = prices.get(0);
 
-        for (Double price:prices
+        for (Double price: prices
              ) {
             if (price > maxPrice) {
                 maxPrice = price;
@@ -44,7 +44,7 @@ public class Stock {
             }
         }
 
-        for (Double price:prices
+        for (Double price: prices
              ) {
             if (price < minPrice) {
                 minPrice = price;
